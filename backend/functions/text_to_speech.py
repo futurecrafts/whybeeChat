@@ -18,6 +18,8 @@ def convert_text_to_speech(message):
 
     print('4. message goes into ELEVEN LABS')
     print(message)
+    print('4.1 APIKEY')
+    print(ELEVEN_LABS_API_KEY)
 
     headers = {
         "xi-api-key": ELEVEN_LABS_API_KEY, "Content-Type": "application/json", "accept": "audio/mpeg"
