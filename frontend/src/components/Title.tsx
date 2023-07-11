@@ -12,7 +12,7 @@ function Title({ setMessages }:Props) {
     const resetConversation = async () => {
         setIsResetting(true);
 
-        await axios.get("http://localhost:8000/reset").then((res) => {
+        await axios.get("https://whybeechat.onrender.com/reset").then((res) => {
             if (res.status == 200) {
                 setMessages([])
             } else {
