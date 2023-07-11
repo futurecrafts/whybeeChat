@@ -42,9 +42,9 @@ async def post_audio(file: UploadFile = File(...)):
 
     audio_input = open("voice.mp3", "rb")
 
-    //with open(file.filename, "wb") as buffer:
-    //    buffer.write(file.file.read())
-    //audio_input = open(file.filename, "rb")
+    #with open(file.filename, "wb") as buffer:
+    #    buffer.write(file.file.read())
+    #audio_input = open(file.filename, "rb")
 
     print('1. audio_input')
     print(audio_input)
