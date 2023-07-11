@@ -25,7 +25,7 @@ function Controller() {
         const formData = new FormData();
         formData.append("file", blob, "myFile.wav");
 
-        await axios.post("https://whybeechat2.onrender.com/post-audio", formData, {
+        await axios.post("https://whybeechat3.onrender.com/post-audio", formData, {
           headers: { "Content-Type": "audio/mpeg" },
           responseType: "arraybuffer",
         })
