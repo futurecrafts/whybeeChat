@@ -16,6 +16,7 @@ def convert_text_to_speech(message):
     voice_rachel = "21m00Tcm4TlvDq8ikWAM"
     voice_josh = "TxGEqnHWrfWFTfGW9XjX"
 
+    print(message)
     print(ELEVEN_LABS_API_KEY)
 
     headers = {
