@@ -18,11 +18,11 @@ def get_recent_messages():
 
     x = random.uniform(0,1)
     if x < 0.5:
-        learn_instruction["content"] = learn_instruction["content"] + " Your response will include some dry humour"
-        # learn_instruction["content"] = learn_instruction["content"] + " Your response will include some random fact about Korea."
+        #learn_instruction["content"] = learn_instruction["content"] + " Your response will include some dry humour"
+         learn_instruction["content"] = learn_instruction["content"] + " Your response will include some random fact about Korea."
     else:
-        learn_instruction["content"] = learn_instruction["content"] + " Your response will include a rather challenging question."
-        # learn_instruction["content"] = learn_instruction["content"] + " Your response will include asking me to repeat something back to you in Korean."
+        #learn_instruction["content"] = learn_instruction["content"] + " Your response will include a rather challenging question."
+         learn_instruction["content"] = learn_instruction["content"] + " Your response will include asking me to repeat something back to you in Korean."
 
     messages.append(learn_instruction)
 
